@@ -1,1 +1,5 @@
-
+- hosts: localhost
+  tasks:
+    - name: debug
+      debug: 
+        msg: "test1"
